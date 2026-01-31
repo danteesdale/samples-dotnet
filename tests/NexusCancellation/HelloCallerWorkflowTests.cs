@@ -1,12 +1,12 @@
-﻿using Temporalio.Client;
+﻿namespace TemporalioSamples.Tests.NexusCancellation;
+
+using Temporalio.Client;
 using Temporalio.Worker;
 using TemporalioSamples.NexusCancellation;
 using TemporalioSamples.NexusCancellation.Caller;
 using TemporalioSamples.NexusCancellation.Handler;
 using Xunit;
 using Xunit.Abstractions;
-
-namespace TemporalioSamples.Tests.NexusCancellation;
 
 public class HelloCallerWorkflowTests : WorkflowEnvironmentTestBase
 {
